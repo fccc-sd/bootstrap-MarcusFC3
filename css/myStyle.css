@@ -132,7 +132,8 @@ footer a:hover{
 }
 
 .accounts{
-    
+
+
     display: block;
     line-height: 1.5em;
 }
@@ -154,11 +155,7 @@ footer a:hover{
     color: #847EB1;
 }
 
-img{ 
-     
-}
-
-table{
+.table{
     border: solid 1px #201858;
     background-color: #847EB1;
     border-collapse: collapse;
@@ -169,6 +166,8 @@ tr, td, th
     border: solid 2px #201858;
     padding: 2px;
     text-align: center;
+    width: 230px;
+    height: 5px;
 }
 
 .radcheck{
