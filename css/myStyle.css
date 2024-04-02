@@ -128,12 +128,9 @@ footer a:visited{
 footer a:hover{
     text-decoration: underline;
     color: #0E5342;
-   
 }
 
 .accounts{
-
-
     display: block;
     line-height: 1.5em;
 }
@@ -170,10 +167,21 @@ tr, td, th
     height: 5px;
 }
 
-.radcheck{
+input[type="checkbox"], input[type="radio"]{
     margin-left: 10px;
+    transform: scale(1.5);
+}
+input[type="submit"]{
+    margin-left:10px;
+    margin-bottom:10px;
+}
+fieldset{
+    border-color:#201858;
+}
+.figure-caption{
+    padding: 10px;
 }
 
-fieldset{
-    border-color:#201858; ;
+.img{
+    width:100%;
 }

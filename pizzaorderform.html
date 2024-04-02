@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Marcus, Jones, Jones Jr., Jr., Four County, Northwest State Community College,
+    Marcus Jones, Marcus Jones Jr.">
+    <meta name="description" content="A web page about Marcus Jones Jr.">
+    <title>Marcus Jones Jr's Web Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link href="css/myStyle.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <header>
+                <h1>Marcus Jones Jr.'s Web Page</h1>
+                <h4>Pizza Order Form</h4>
+            </header>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <nav>
+                    <li><a href="index.html" title="Home Page">Home</a></li>
+					<li><a href="credentials.html" title="CCP">CCP</a></li>
+					<li><a href="interest.html" title="Video Games & Music">Interest</a></li>
+					<li><a href="fitnessandsports.html" title="Fitness & Sports">Sports</a></li>
+					<li><a href="mygames.html" title="My Games">My Games</a></li>
+					<li><a href="samples.html" title="Samples">Sample Pages</a></li>
+                </nav>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <section>
+                    <form name="pizzaOrderForm" action="pizzaorderform.html" method="post">
+                        <h3>Contact Information</h3>
+                        <p>
+                            <label for="firstName">First Name:</label> <input type="text" name="firstName"
+                                id="firstName">   <br><br>                        
+                            <label for="lastName">Last Name:</label> <input type="text" name="lastName" id="lastName">
+                        </p>
+                        <p>
+                            Address: <input type="text" name="address" id="address"> <br> <br>
+                            Phone Number: <input type="text" name="phoneNumber" id="phoneNumber">
+                        </p>
+                        <h3>Select Your Size</h3>
+
+                        <fieldset>
+                            <p class="radcheck">Small &ensp; &nbsp;<input type="radio" id="small" name="size"></p>
+                            <p class="radcheck">Medium <input type="radio" id="medium" name="size"></p>
+                            <p class="radcheck">Large &emsp;<input type="radio" id="large" name="size"></p>
+                        </fieldset>
+                        <h3>Select Your Toppings</h3>
+                        <fieldset>
+
+                            <p class="radcheck">Pepperoni <input type="checkbox" id="pepperoni" name="toppings"></p>
+                            <p class="radcheck">Ham &emsp;&ensp;&nbsp;&nbsp;<input type="checkbox" id="ham"
+                                    name="toppings">
+                            </p>
+                            <p class="radcheck">Sausage &nbsp;&nbsp; <input type="checkbox" id="sausage"
+                                    name="toppings">
+                            </p>
+                            <p class="radcheck">Bacon &emsp; <input type="checkbox" id="bacon" name="toppings"></p>
+                            <p class="radcheck">Olives &emsp;&nbsp; <input type="checkbox" id="pepperoni"
+                                    name="toppings">
+                            </p>
+                        </fieldset>
+                        <h3>Notes To The Cook</h3>
+                        <p><textarea name="notes" id="notes" cols="50" rows="2"></textarea></p>
+                        <input type="submit" value="Place Order">
+                    </form>
+                </section>
+            </div>
+        </div>
+        <div class="row">
+            <footer><a href=https://www.fourcounty.net>Four County's Website</a>
+                &nbsp; <!-- "&nbsp" adds a space between my two hyper links -->
+                <a href="https://mrgeiger.com/"> Mr.Geiger's Website</a>
+                <br> Copyright &copy; 2023 Marcus Jones Jr.
+            </footer>
+        </div>
+    </div>
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
