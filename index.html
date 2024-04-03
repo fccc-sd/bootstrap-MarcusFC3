@@ -7,7 +7,7 @@
     <meta name="keywords" content="Marcus Jones Jr., Four County Career Center">
     <meta name="description" content="A web page about Marcus Jones Jr.">
     <title>Marcus Jones Jr's Web Page</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="css/myStyle.css">
 </head>
 
@@ -19,81 +19,106 @@
                 <h4>Home</h4>
             </header>
         </div>
-
-
         <div class="row">
             <div class="col-12">
-                <nav>
-                    <li><a href="index.html" title="Home Page">Home</a></li>
-					<li><a href="credentials.html" title="CCP">CCP</a></li>
-					<li><a href="interest.html" title="Video Games & Music">Interest</a></li>
-					<li><a href="fitnessandsports.html" title="Fitness & Sports">Sports</a></li>
-					<li><a href="mygames.html" title="My Games">My Games</a></li>
-					<li><a href="samples.html" title="Samples">Sample Pages</a></li>s
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" aria-disabled="true"><span id="navbarBrand"><img src="img/arrow-right-square-fill.svg" height="35"></span></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarScroll" aria-controls="navbarScroll"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarScroll">
+                            <ul class="navbar-nav me-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="credentials.html">College Credit Plus</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                      Interest
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item" href="interest.html">Video Games & Music</a></li>
+                                      <li><a class="dropdown-item" href="fitnessandsports.html">Fitness & Sports</a></li>
+                                    </ul>
+                                  </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="mygames.html">My Games</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="samples.html">Sample Pages</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </nav>
             </div>
         </div>
         <div class="row">
-
-            <div class="col-md-8 d-flex">
-                <aside>
-                        <h3>About Me</h3>
-                    <p>
-                        I, Marcus Jones Jr., was born in Central Michigan
-                        on <strong>February 4th of 2007.</strong> I lived in Michigan
-                        for the majority of my life until my family moved down
-                        to Northwest Ohio to live closer to my grandparents. I have lived in Defiance Ohio for over 5
-                        years
-                        now,
-                        attending Tinora Middle School and High School. My junior year, I transferred to Four County
-                        Career
-                        Center
-                        to
-                        pursue my interest in computer programming and get a headstart on college.
+        <div class="col-lg-7 d-flex">
+            <aside>
+                <h3>About Me</h3>
+                <p>
+                    I, Marcus Jones Jr., was born in Central Michigan
+                    on <strong>February 4th of 2007.</strong> I lived in Michigan
+                    for the majority of my life until my family moved down
+                    to Northwest Ohio to live closer to my grandparents. I have lived in Defiance Ohio for over 5
+                    years
+                    now,
+                    attending Tinora Middle School and High School. My junior year, I transferred to Four County
+                    Career
+                    Center
+                    to
+                    pursue my interest in computer programming and get a headstart on college.
                     <br>
-                    
-                    <div class="center">
-                        <img src="img/marcus_jr.jpg" alt="Marcus in Four County uniform at home" height="240" width="155">
-                    <img src="img/markymark.jpg" alt="Marcus as Four County student of the month" height="240" width="343.2">
-                    
+
+                <div class="center">
+                    <img src="img/marcus_jr.jpg" alt="Marcus in Four County uniform at home" height="240" width="155">
+                    <img src="img/markymark.jpg" alt="Marcus as Four County student of the month" height="240"
+                        width="343.2">
+
                 </div>
                 </p>
-                </aside>
-            </div>
-            <div class="col-12 col-md-4 d-flex">
-                <section>
-                    <h3>Goals</h3>
-                    <div id="goallist">
-                        <ul>
-                            <li>Attain a degree in computer programming</li>
-                            <li>Get a job that involves programming</li>
-                            <li>Purchase my own home/property</li>
-                        </ul>
-                    </div>
-                    <p>
-                        I plan to attain an associate's degree in computer programming from
-                        <span id="nscc"><a href="https://northweststate.edu/">Northwest State Community
-                                College</a></span>
-                        after graduating from Four County. Jobs in information and technology have a high salary average
-                        and
-                        so far
-                        I really
-                        enjoy everything about programming that I have learned at Four County so I would be quite
-                        excited to
-                        get any
-                        job that uses my degree.
-                        I would like to own a house because I have never lived on non-rented
-                        property and I think it would be nice to have a place
-                        to stay that is truly my own.<br>
-                        <!-- <h3>Samples</h3>
+            </aside>
+        </div>
+        <div class="col-lg-5 d-flex">
+            <section>
+                <h3>Goals</h3>
+                <div id="goallist">
+                    <ul>
+                        <li>Attain a degree in computer programming</li>
+                        <li>Get a job that involves programming</li>
+                        <li>Purchase my own home/property</li>
+                    </ul>
+                </div>
+                <p>
+                    I plan to attain an associate's degree in computer programming from
+                    <span id="nscc"><a href="https://northweststate.edu/">Northwest State Community
+                            College</a></span>
+                    after graduating from Four County. Jobs in information and technology have a high salary average
+                    and
+                    so far
+                    I really
+                    enjoy everything about programming that I have learned at Four County so I would be quite
+                    excited to
+                    get any
+                    job that uses my degree.
+                    I would like to own a house because I have never lived on non-rented
+                    property and I think it would be nice to have a place
+                    to stay that is truly my own.<br>
+                    <!-- <h3>Samples</h3>
                         To practice my webdesign coding, I have created a mock pizza order form. You can view it by clicking the link
                         <a href="pizzaorderform.html">here</a> (this form will not send your information anywhere, it only acts as a layout)
                         -->
-                    </p>
-                </section>
-            </div>
+                </p>
+            </section>
         </div>
-        <div class="row">
+    </div>
+    <div class="row">
         <footer>
             <a href=https://www.fourcounty.net>Four County's Website</a>
             &nbsp; <!-- "&nbsp" adds a space between my two hyper links -->
@@ -101,8 +126,8 @@
             <br> Copyright &copy; 2023 Marcus Jones Jr.
         </footer>
     </div>
-    </div> 
-    <script src="js/bootstrap.bundle.js"></script>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 
 </html>
