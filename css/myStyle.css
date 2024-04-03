@@ -154,12 +154,13 @@ footer a:hover{
 
 .table{
     border: solid 1px #201858;
-    background-color: #847EB1;
     border-collapse: collapse;
+    padding:10px;
 }
 
 tr, td, th 
 {
+    background-color: #847EB1;
     border: solid 2px #201858;
     padding: 2px;
     text-align: center;
