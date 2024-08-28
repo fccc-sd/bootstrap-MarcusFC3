@@ -166,10 +166,26 @@ tr, td, th
     width: 230px;
     height: 5px;
 }
-
+label{
+    width: 140px;
+    text-align: right;
+    padding: 5px;
+}
+form{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+input[type="text"]{
+    transform: scale(0.9);
+    border-radius: 0%;
+    border-style: ridge;
+}
 input[type="checkbox"], input[type="radio"]{
-    margin-left: 10px;
-    transform: scale(1.5);
+    transform: scale(1.2);
+    margin-left: 1em;
+    padding: 2px;
+    justify-items: left;
 }
 input[type="submit"]{
     margin-left:10px;
@@ -177,13 +193,19 @@ input[type="submit"]{
 }
 fieldset{
     border-color:#201858;
+    margin-right:140px;
+}
+textarea{
+    resize:none;
 }
 .figure-caption{
     padding: 10px;
 }
-
 .img{
     width:100%;
+}
+span{
+    color:red;
 }
 .nav{
     margin-bottom: 10px;
