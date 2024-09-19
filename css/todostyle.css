@@ -29,7 +29,7 @@ li {
     text-align: left;
     display: inline-block;
     width: 75vw;
-    word-break: break-all;
+    word-break: break-word;
     margin-bottom: 20px;
 }
 span{
