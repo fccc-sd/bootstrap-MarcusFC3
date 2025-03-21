@@ -70,6 +70,21 @@ section{
 }
 section img{
 padding: 10px;
+margin: 10px 10px 10px 3vw;
+}
+
+aside img{
+    margin: 10px 10px 10px 15vw;
+}
+a img{
+    border-radius:20%;
+    border-spacing: -5px;
+    border-style: solid;
+    border-color: #003729;
+    padding: 0px;
+}
+a img:hover{
+    border-color: #6FA698;
 }
 aside img{
     padding:10px;
