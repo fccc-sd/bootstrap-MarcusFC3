@@ -1,0 +1,191 @@
+header {
+    text-align: center;
+}
+.container{
+    background-color: #143054;
+    padding-bottom: 10px;
+    }
+body {
+    background-color: #748BA7;
+    color: #d7ebe4;
+    scroll-behavior: smooth;
+}
+header{
+    width: 910px;
+    height: 125px;
+    padding: 25px;
+    line-height:2.7em;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #051B38;
+    font-size: 1.5em;
+    background-color: #4C688B;
+}
+.deepblue{
+    background-color: #143054;
+    color: #7FFFD4;
+}
+#navbarBrand{
+    font-weight:600;
+   color: #201858;
+   text-decoration: underline;
+}
+nav{
+    display: block;
+    font-size: 1.25em;
+    margin-bottom: 10px;
+    background-color: #847EB1;
+}
+nav ul{
+
+}
+nav li{
+    display: inline;
+    padding-right: 30px;
+    list-style-type: none;
+    font-size: 1em;
+    margin: 0;
+    width: auto;
+}
+nav a:link{
+    color:#0E083B;
+    text-decoration:none;
+}
+nav a:visited{
+    color:#0E083B;
+}
+nav a:hover{
+    text-decoration:underline;
+    color: #5B5393;
+   
+}
+main{
+    color: green;
+}
+
+.block{
+    display: block;
+}
+.borderbox{
+    background-color: #143054;
+    border-radius: 2%;
+    box-shadow: 0px 0px 10px black;
+}
+ul{
+    color: #7FFFD4;
+    list-style-type: circle;
+}
+li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    color: #7FFFD4;
+    list-style-type: square;
+    text-align: left;
+    display: inline-block;
+    width: 75vw;
+    word-break:normal;
+    margin-bottom: 20px;
+}
+span{
+    display: inline-block;
+    list-style-type:square;
+}
+#centered{
+    display: block;
+    align-items: center;
+}
+input[type="text"] {
+    width: 250px;
+    height: 30px;
+    float: none;
+}
+.strikethrough{
+    text-decoration: line-through;
+}
+input{
+    box-shadow: 1px 1px black;
+    float: right;
+    border-style:hidden;
+    text-align: center;
+    color: black;
+}
+input[type="button"]{
+   
+    width: 2em;
+    height: 2em;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 5px;
+    border-radius: 10%;
+}
+.checkbox{
+    margin-top: 10px;
+    display: inline-block;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    border-color: #7FFFD4;
+    border-style: solid;
+    border-width: 2px;
+    cursor: pointer;
+    background-color: #0e1f19;
+}
+.checked{
+    background-color: #348369;
+    background-image: url(../img/checkmark.png);
+    background-size: 25px 25px;
+}
+input[type="button"][value="+"] {
+    margin-left: 10px;
+    margin-top: auto;
+    display: inline;
+    float: none;
+}
+
+input[type="button"][value="Remove All List Items"] {
+    width: 170px;
+    float: none;
+    border-radius: 5%;
+    margin-bottom: 20px;
+}
+
+input[type="button"][value="Edit"]{
+    font-size: 14px;
+    width: 4em;
+    display: inline;
+    height: 25px;
+    
+
+}
+input[type="button"][value="Delete"]{
+    font-size: 14px;
+    width: 4em;
+    display: inline;
+    height: 25px;
+    text-decoration: none;
+    margin-right: 20px;
+}
+footer{
+    padding: 15px;
+    text-align: center;
+    color:#0E5342;
+    background-color: #6FA698;
+    }
+    
+    footer li{
+        display: inline;
+        padding-right: 40px;
+        list-style-type: none;
+    }
+    footer a:link{
+        color:#003729;
+        text-decoration:underline;
+    }
+    footer a:visited{
+        color: #003729; 
+        text-decoration: underline;
+    }
+    footer a:hover{
+        text-decoration: underline;
+        color: #0E5342;
+    }
